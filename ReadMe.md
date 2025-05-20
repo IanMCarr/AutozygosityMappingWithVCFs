@@ -12,8 +12,7 @@ Download the file you have been alloted by clicking on it and then selecting the
 
 <hr />
 
-![Figure 1](images/figure1.jpg)
-
+![Figure 1](images/Figure1.jpg)
 
 Figure 1 Download the data by clicking on the __Tray__ icon.
 
