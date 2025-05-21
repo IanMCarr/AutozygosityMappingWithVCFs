@@ -167,3 +167,50 @@ Figure 12: The genotypes of the variants in a specific autozygous region. Red an
 
 <hr />
 
+## Determining what are in the region
+
+### Selecting a region
+
+The regions in the tables (Figure 8) are ordered by score with the first looking like:
+
+|score|chr|from (bp)|to (bp)|length (bp)|
+|-|-|-|-|-|	
+|1200|2|228783179|236715706|7932528|
+
+This indicates the largest region is on chromosome 2 and runs from 228,783,179 to 236,715,706 and the region can be written as chr2:228783179-236715706.
+
+### Setting up the UCSC genome Browser
+
+To look at the genes in this region open the [UCSC genome browser](https://genome.ucsc.edu/) and click on the __Genomes__ item in the clicks that run across the top of the page (just below the Santa Cruz logo) and select __Human GRCH37/hg19__. This may take you to a page asking which mirror you wan to use - select the top link. Then select __Human GRCH37/hg19__ again. This will then display a part of the genome (reloads the options used when you last viewed this site), below which are a number of option by which the display can be modified. All the active options are shown as white drop down list boxes, while the hidden options are shown as grey dropdown lists. Select all the currently active options and set them to __hide__. The set the __NCBI RefSeq__ option (in __Gene and Gene Predictions__) to __dense__ and the __OMIM__ option (in __Phenotypes, Variants, and Literature__) to __show__ (Figure 13).
+
+<hr />
+
+![Figure 13](images/figure13.jpg)
+
+Figure 13: The option selection for the Genome Browser.
+
+<hr />
+
+### Entering the region
+
+Near the top of the webpage is a single line text area, enter your regions coordinates in this text area and press the __Search__ button to the right. This should generate an image similar Figure 14.
+
+<hr />
+
+![Figure 14](images/figure14.jpg)
+
+Figure 14: The visualization of the genes in the largest region
+
+<hr />
+
+The view consists of two data tract:
+- The first (blue circle Figure 14) shows the gene (transcripts) in the region. The vertical lines indicate transcribed sequences (exons), with the taller bars highlighting protein coding sequences. The horizontal lines delimit the extent of each gene (transcript). 
+- The second data tract (red circle Figure 14) shows the genes referenced in the OMIM data set. [OMIN - "Online Mendelian Inheritance in Man"](https://www.omim.org/) is a manually curated list, with description, of known disease genes and loci in man. Each gene is displayed as a rectangle next to the gene's OMIM ID number. In this view known disease genes are drawn in green, while genes not linked to a phenotype are grey. Hovering the mouse cursor over a green rectangle displays a brief description of the gene's OMIM entry (Fig. 15). By selecting each OMIM gene in turn, its possible to rapidly determine if a gene in the region is linked to the patient's phenotype.
+
+<hr />
+
+![Figure 15](images/figure15.jpg)
+
+Figure 15: The placing the cursor over a OMIM gene displays a summary of the gene.
+
+<hr />
