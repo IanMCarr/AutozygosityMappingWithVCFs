@@ -8,7 +8,7 @@ A number of command line, desktop and web applications have been developed for t
 
 The [data folder](data/) contains a series of zipped VCF files, each of which contains data for a number of related people: two affected and three unaffected. Each file has had the positions of variants slightly adjusted, resulting in minor differences in the analysis outcomes between the files.  
 
-Download the file you have been allotted by clicking on it and then selecting the download option in the upper right corner of the webpage (Figure 1).
+Download the file you have been allotted by clicking on it and then selecting the download option in the upper right corner of the webpage (red box, Figure 1).
 
 <hr />
 
