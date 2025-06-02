@@ -6,7 +6,7 @@ A number of command line, desktop and web applications have been developed for t
 
 ## Getting the data files
 
-The [data folder](data/) contains a series of VCF files, each of which contains data for a number of related people: two affected and three unaffected. Each file has had the positions of variants slightly adjusted, resulting in minor differences in the analysis outcomes between the files.  
+The [data folder](data/) contains a series of zipped VCF files, each of which contains data for a number of related people: two affected and three unaffected. Each file has had the positions of variants slightly adjusted, resulting in minor differences in the analysis outcomes between the files.  
 
 Download the file you have been allotted by clicking on it and then selecting the download option in the upper right corner of the webpage (Figure 1).
 
@@ -30,18 +30,18 @@ Figure 2: The AutozygosityMapper landing page.
 
 <hr />
 
-If you plan to do a lot of autozygosity mapping, you can create a profile, but today just upload the data as a guest.
+If you plan to do a lot of autozygosity mapping, you can create a profile, but today just upload the data as a guest by clicking the __Create new project__ link (green box, Figure 2).
 
 <b>Make sure the current species is set to _Human_</b> and then click on the __create new project__ link (Figure 2).
 
 
 ## Uploading data
 
- - On the __Upload genotypes__ page, enter a project suitable name in the first text area (green box, Figure 3).
+ - On the __Upload genotypes__ page, enter a suitable project name in the first text area (green box, Figure 3) This name as to be unique so include a unique to you Id such as your initials.
  - Make sure the __VCF file__ option is selected (blue box, Figure 3).
  - Click on the __Choose VCF file__ button and select the merged data VCF file you downloaded earlier (red box, Figure 3).
  - Enter the genome build used when calling the variant data (black box, Figure 3).
-- Press the __Submit__ button  (brown box  box, Figure 3)  
+- Press the __Submit__ button  (brown box, Figure 3)  
 
 <hr />
 
@@ -79,8 +79,8 @@ On the __(Re)analyse your genotypes__ page:
 
 - Make sure your current project is listed in the first text area (black box, Figure 6).
 - Enter the name of the analysis in the second text area (blue box, Figure 6)
-- The names of the affected patients in the fourth text area (green box, Figure 6).
-- The names of the unaffected patients in the fifth text area (yellow box, Figure 6).
+- The names of the affected patients in the fourth text area (green box, Figure 6). In this case the patients are JT710 and JT709.
+- The names of the unaffected patients in the fifth text area (yellow box, Figure 6). In this case the unaffected relatives are JT706, JT707 and JT708.
 - Press the __Submit__ button (pink box, Figure 6).
 
 <hr />
