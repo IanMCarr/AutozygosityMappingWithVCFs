@@ -182,13 +182,22 @@ This indicates the largest region is on chromosome 2 and runs from 228,783,179 t
 
 ### Setting up the UCSC Genome Browser
 
-To look at the genes in this region, open the [UCSC genome browser](https://genome.ucsc.edu/) and click on the __Genomes__ item in the menu that run across the top of the page (just below the Santa Cruz logo) and select __Human GRCH37/hg19__. This may take you to a page asking which mirror you want to use – select the top link, then select __Human GRCH37/hg19__ again. This will then display a part of the genome (reloads the options used when you last viewed this site), below which are a number of options by which the display can be modified. All the active options are shown as white dropdown list boxes, while the hidden options are shown as grey dropdown lists. Select all the currently active options and set them to __hide__. Then select the __NCBI RefSeq__ option (in __Gene and Gene Predictions__) to __dense__ and the __OMIM__ option (in __Phenotypes, Variants, and Literature__) to __show__ (Figure 13).
+To look at the genes in this region, open the [UCSC genome browser](https://genome.ucsc.edu/) and click on the __Genomes__ item in the menu that run across the top of the page (just below the Santa Cruz logo) and select __Human GRCH37/hg19__. This may take you to a page asking which mirror you want to use – select the top link, then select __Human GRCH37/hg19__ again. This will then display a part of the genome (reloads the options used when you last viewed this site), below which are a number of options by which the display can be modified. All the active options are shown as white dropdown list boxes, while the hidden options are shown as grey dropdown lists. Select all the currently active options and set them to __hide__. Then select the __NCBI RefSeq__ option (in __Gene and Gene Predictions__) to __dense__ and the __OMIM__ option (in __Phenotypes, Variants, and Literature__) to __show__ (Figure 13a). 
+
+If the OMIM option is greyed out click on the OMIM link above the dropdown list and select the he __Pack__ option for OMIM Genes, before returning to the genome view page and pressing refresh.
 
 <hr />
 
 ![Figure 13](images/figure13.jpg)
 
-Figure 13: The option selection for the Genome Browser.
+Figure 13a: The option selection for the Genome Browser.
+
+<hr />
+
+![Figure 13a](images/figure13a.jpg)
+
+Figure 13b: If the OMIM option is greyed out, click on the OMIM link above the box and select the __Pack__ option for OMIM Genes.
+
 
 <hr />
 
